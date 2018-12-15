@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.professional.myapplication.Welcome"
+    android:layout_gravity="center"
+    android:layout_column="2">
+    <TableRow
+        android:layout_marginTop="150dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/welcom_txt"
+        android:text="welcom"
+        style="@style/button_styl"/>
+        <TextView
+      android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/final_user_txt"
+        android:text=""
+        style="@style/button_styl"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pass_txt"
+            android:text="@string/pass_final"
+            style="@style/button_styl"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/final_pass_txt"
+            android:text=""
+            style="@style/button_styl"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+
+</TableLayout>

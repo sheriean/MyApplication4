@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="first_labl">Splash Screen</string>
+    <string name="second_activity"> Login</string>
+    <string name="log"> Login </string>
+    <string name="user_n">Usr_Name</string>
+    <string name="pass">PassWord</string>
+    <string name="hint_pass"> Enter password of 8 letters</string>
+    <string name="pass_final">Your password</string>
+
+
+</resources>
